@@ -16,10 +16,11 @@ cd bigint
 ```
 g++ -Werror -c *.cpp
 ```
+4. 링크
 ```
 g++ -o main.exe *.o
 ```
-4. 실행
+5. 실행
 ```
 ./main.exe
 ```
