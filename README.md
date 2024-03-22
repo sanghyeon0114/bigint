@@ -21,5 +21,5 @@ g++ -o main.exe *.o
 ```
 4. 실행
 ```
-main.exe
+./main.exe
 ```
