@@ -6,6 +6,7 @@ using namespace std;
 int charToInt(char digit);
 char intToChar(int digit);
 string sum(string num1, string num2);
+string sub(string num1, string num2);
 
 int main() {
     string num1;
@@ -15,11 +16,10 @@ int main() {
     cin >> num1;
     cout << "Second number\t>> ";
     cin >> num2;
-    //sum(num1, num2);
+
     // Sum Function
-    cout << "Sum\t>> ";
-    cout << sum(num1, num2) << endl;
+    cout << "Sum\t\t>> " << sum(num1, num2) << endl;
     // Sub Function
-    cout << "Sub\t>> " << endl;
+    cout << "Sub\t\t>> " << sub(num1, num2) << endl;
     return 0;
 }

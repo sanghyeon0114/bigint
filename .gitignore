@@ -4,4 +4,4 @@ main.exe
 
 main.o
 
-string.o
+string_operator.o
