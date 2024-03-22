@@ -7,8 +7,8 @@ int charToInt(char digit) {
     return (int)(digit - 48);
 }
 
-char intToChar(int digit) {
-    return (char)(digit + 48);
+string intToString(int digit) {
+    return to_string(digit);
 }
 
 string sum(string num1, string num2) {
@@ -53,7 +53,7 @@ string sum(string num1, string num2) {
     string result = "";
 
     for(int i = iresult[0] == 1 ? 0 : 1; i < length; i++) {
-        result.append(1, intToChar(iresult[i]));
+        result.append(intToString(iresult[i]));
     }
 
     return result;
@@ -144,7 +144,7 @@ string sub(string num1, string num2) {
                 isZero = false;
             }
         }
-        result.append(1, intToChar(iresult[i]));
+        result.append(intToString(iresult[i]));
     }
 
     return isZero ? "0" : result;
